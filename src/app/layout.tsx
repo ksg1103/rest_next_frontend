@@ -27,7 +27,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>
+          <nav className="flex gap-4">
+            <a href="/">메인</a>
+            <a href="/list">리스트</a>
+          </nav>
+        </header>
         {children}
+        <footer>푸터</footer>
       </body>
     </html>
   );
