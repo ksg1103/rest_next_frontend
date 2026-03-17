@@ -31,7 +31,7 @@ export default function RootLayout({
         <header>
           <nav className="flex gap-4">
             <Link href="/">메인</Link>
-            <Link href="/list">리스트</Link>
+            <Link href="/posts">리스트</Link>
           </nav>
         </header>
         <main className="flex-grow flex justify-center items-center">
