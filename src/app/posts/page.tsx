@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from "react";
 
-interface Post{
+export interface Post{
     id:number,
     title:string
+    content: string
 }
 export default function Home() {
     const [posts, setPosts] = useState<Post[]>([]);
